@@ -2668,6 +2668,7 @@ libqt5-opengl-dev:
   arch:   [qt5-base]
   debian: [libqt5opengl5-dev]
   fedora: [qt5-qtbase]
+  freebsd: [qt5-opengl]
   gentoo: ['dev-qt/qtopengl:5']
   slackware: [qt5]
   ubuntu: [libqt5opengl5-dev]
