@@ -284,7 +284,7 @@ boost:
     stretch: [libboost-all-dev]
     wheezy: [libboost-all-dev]
   fedora: [boost-devel]
-  freebsd: [boost-python-libs]
+  freebsd: [py27-boost-libs]
   gentoo: ['dev-libs/boost[python]']
   macports: [boost]
   opensuse: [boost-devel]
