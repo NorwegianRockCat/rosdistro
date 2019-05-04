@@ -3414,6 +3414,7 @@ liburdfdom-tools:
   arch: [urdfdom]
   debian: [liburdfdom-tools]
   fedora: [urdfdom]
+  freebsd: [ros-urdfdom]
   gentoo: [dev-libs/urdfdom]
   slackware: [urdfdom]
   ubuntu: [liburdfdom-tools]
