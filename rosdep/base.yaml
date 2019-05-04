@@ -2447,6 +2447,7 @@ libogre-dev:
     stretch: [libogre-1.9-dev]
     wheezy: [libogre-dev]
   fedora: [ogre-devel]
+  freebsd: [ogre3d]
   gentoo: [dev-games/ogre]
   macports: [ogre]
   opensuse: [ogre-devel]
