@@ -2710,7 +2710,7 @@ libpoco-dev:
   arch: [poco]
   debian: [libpoco-dev]
   fedora: [poco-devel]
-  freebsd: [poco-ssl]
+  freebsd: [poco]
   gentoo: [dev-libs/poco]
   macports: [poco]
   opensuse: [poco-devel]
