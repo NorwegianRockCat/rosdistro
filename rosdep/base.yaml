@@ -131,6 +131,7 @@ assimp-dev:
   arch: [assimp]
   debian: [libassimp-dev]
   fedora: [assimp-devel]
+  freebsd: [assimp-devel]
   gentoo: [media-libs/assimp]
   opensuse: [libassimp3]
   rhel: [assimp-devel]
