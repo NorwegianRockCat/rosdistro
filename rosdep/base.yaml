@@ -460,7 +460,7 @@ collada-dom:
     jessie: [libcollada-dom2.4-dp-dev]
     stretch: [libcollada-dom2.4-dp-dev]
   fedora: [collada-dom-devel]
-  freebsd: [opencollada]
+  freebsd: [collada-dom]
   gentoo: [dev-libs/collada-dom]
   macports: [collada-dom]
   slackware: [collada-dom]
