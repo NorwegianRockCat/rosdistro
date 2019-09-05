@@ -294,7 +294,7 @@ python:
   cygwin: [python]
   debian: [python-dev]
   fedora: [python-devel]
-  freebsd: [python]
+  freebsd: [python2]
   gentoo: [dev-lang/python]
   macports: [python26, python_select]
   opensuse: [python-devel]
