@@ -3311,6 +3311,7 @@ libssl-dev:
   alpine: [libressl-dev]
   arch: [openssl]
   debian: [libssl-dev]
+  freebsd: [openssl]
   fedora: [openssl-devel]
   gentoo: [dev-libs/openssl]
   openembedded: [openssl@openembedded-core]

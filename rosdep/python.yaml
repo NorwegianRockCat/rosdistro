@@ -1628,6 +1628,7 @@ python-gnupg:
   arch: [python2-gnupg]
   debian: [python-gnupg]
   fedora: [python-gnupg]
+  freebsd: [py27-gnupg]
   gentoo: [dev-python/python-gnupg]
   ubuntu: [python-gnupg]
 python-google-cloud-bigquery-pip:
