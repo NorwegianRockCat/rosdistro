@@ -1073,6 +1073,7 @@ python-crypto:
   arch: [python2-crypto]
   debian: [python-crypto]
   fedora: [python-crypto]
+  freebsd: [py27-pycrypto]
   gentoo: [dev-python/pycrypto]
   osx:
     pip:

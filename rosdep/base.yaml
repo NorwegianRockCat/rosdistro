@@ -2103,6 +2103,7 @@ libgpgme-dev:
     stretch: [libgpgme-dev]
     wheezy: [libgpgme11-dev]
   fedora: [gpgme-devel]
+  freebsd: [gpgme]
   gentoo: [app-crypt/gpgme]
   openembedded: [gpgme@openembedded-core]
   rhel: [gpgme-devel]
