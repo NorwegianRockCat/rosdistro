@@ -355,6 +355,7 @@ ca-certificates:
   arch: [ca-certificates]
   debian: [ca-certificates]
   fedora: [ca-certificates]
+  freebsd: [ca_root_nss]
   gentoo: [app-misc/ca-certificates]
   ubuntu: [ca-certificates]
 can-utils:
