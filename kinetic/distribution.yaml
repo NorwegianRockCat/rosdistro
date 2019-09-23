@@ -27,7 +27,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-industrial-release/abb-release.git
-      version: 1.3.0-1
+      version: 1.3.1-1
     source:
       type: git
       url: https://github.com/ros-industrial/abb.git
@@ -1245,7 +1245,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/locusrobotics/catkin_virtualenv.git
-      version: devel
+      version: master
     release:
       tags:
         release: release/kinetic/{package}/{version}
@@ -1254,7 +1254,7 @@ repositories:
     source:
       type: git
       url: https://github.com/locusrobotics/catkin_virtualenv.git
-      version: devel
+      version: master
     status: developed
   certifi:
     release:
@@ -3180,7 +3180,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/wxmerkt/fcl_catkin-release.git
-      version: 0.5.98-1
+      version: 0.5.99-2
     status: developed
   feed_the_troll:
     doc:
@@ -3362,7 +3362,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/FlexBE/flexbe_behavior_engine-release.git
-      version: 1.2.1-1
+      version: 1.2.2-1
     source:
       type: git
       url: https://github.com/team-vigir/flexbe_behavior_engine.git
@@ -4256,6 +4256,13 @@ repositories:
       url: https://github.com/HebiRobotics/hebi_cpp_api_ros.git
       version: master
     status: developed
+  hebi_description:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/HebiRobotics/hebi_description-release.git
+      version: 0.1.0-1
+    status: developed
   hebiros:
     doc:
       type: git
@@ -5044,7 +5051,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-industrial-release/industrial_core-release.git
-      version: 0.7.0-0
+      version: 0.7.1-1
     source:
       type: git
       url: https://github.com/ros-industrial/industrial_core.git
@@ -5357,7 +5364,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/tork-a/jog_control-release.git
-      version: 0.0.1-0
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/tork-a/jog_control.git
@@ -6206,7 +6213,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/IntelRealSense/librealsense2-release.git
-      version: 2.25.2-1
+      version: 2.28.0-2
     source:
       test_pull_requests: true
       type: git
@@ -9341,7 +9348,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/PilzDE/pilz_industrial_motion-release.git
-      version: 0.3.9-1
+      version: 0.3.10-1
     source:
       type: git
       url: https://github.com/PilzDE/pilz_industrial_motion.git
@@ -9365,7 +9372,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/PilzDE/pilz_robots-release.git
-      version: 0.4.10-1
+      version: 0.4.11-1
     source:
       test_pull_requests: true
       type: git
@@ -10306,7 +10313,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/OUXT-Polaris/quaternion_operation-release.git
-      version: 0.0.3-1
+      version: 0.0.3-2
     source:
       type: git
       url: https://github.com/OUXT-Polaris/quaternion_operation.git
@@ -10608,7 +10615,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_common_msgs-release.git
-      version: 0.2.1-1
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/roboception/rc_common_msgs.git
@@ -10623,7 +10630,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_dynamics_api-release.git
-      version: 0.8.0-1
+      version: 0.10.0-1
     source:
       test_pull_requests: true
       type: git
@@ -10817,7 +10824,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/resource_retriever-release.git
-      version: 1.12.4-0
+      version: 1.12.5-1
     source:
       test_pull_requests: true
       type: git
@@ -13585,6 +13592,16 @@ repositories:
       url: https://github.com/rosin-project/rxcpp_vendor.git
       version: master
     status: maintained
+  rxros:
+    release:
+      packages:
+      - rxros
+      - rxros_tf
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/rosin-project/rxros-release.git
+      version: 0.1.0-1
+    status: developed
   sainsmart_relay_usb:
     doc:
       type: hg
@@ -14081,17 +14098,17 @@ repositories:
   soem:
     doc:
       type: git
-      url: https://github.com/smits/soem.git
+      url: https://github.com/mgruhler/soem.git
       version: master
     release:
       tags:
         release: release/kinetic/{package}/{version}
-      url: https://github.com/smits/soem-gbp.git
-      version: 1.3.0-0
+      url: https://github.com/mgruhler/soem-gbp.git
+      version: 1.4.0-1
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/smits/soem.git
+      url: https://github.com/mgruhler/soem.git
       version: master
     status: maintained
   sophus:
@@ -16170,7 +16187,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/vrx-release.git
-      version: 1.2.2-1
+      version: 1.2.5-1
     source:
       type: hg
       url: https://bitbucket.org/osrf/vrx/

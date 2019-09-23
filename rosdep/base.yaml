@@ -1792,12 +1792,11 @@ libestools-dev:
   fedora: [festival-speechtools-devel]
   gentoo: [app-accessibility/festival]
   ubuntu:
+    '*': [libestools-dev]
     saucy: [libestools2.1-dev]
     trusty: [libestools2.1-dev]
     utopic: [libestools2.1-dev]
     vivid: [libestools2.1-dev]
-    wily: [libestools-dev]
-    xenial: [libestools-dev]
 libev-dev:
   arch: [libev]
   debian: [libev-dev]
@@ -4663,6 +4662,11 @@ pugixml-dev:
   debian: [libpugixml-dev]
   fedora: [pugixml]
   ubuntu: [libpugixml-dev]
+pybind11-dev:
+  arch: [pybind11]
+  debian: [pybind11-dev]
+  fedora: [pybind11-devel]
+  ubuntu: [pybind11-dev]
 python-dev:
   debian: [python-dev]
   fedora: [python2-devel]

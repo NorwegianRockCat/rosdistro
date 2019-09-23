@@ -13,25 +13,11 @@ repositories:
       version: 0.0.1
     release:
       packages:
-      - autoware_auto_algorithm
       - autoware_auto_cmake
       - autoware_auto_create_pkg
       - autoware_auto_examples
       - autoware_auto_geometry
       - autoware_auto_msgs
-      - euclidean_cluster
-      - euclidean_cluster_nodes
-      - hungarian_assigner
-      - kalman_filter
-      - lidar_utils
-      - motion_model
-      - point_cloud_fusion
-      - ray_ground_classifier
-      - ray_ground_classifier_nodes
-      - velodyne_driver
-      - velodyne_node
-      - voxel_grid
-      - voxel_grid_nodes
       tags:
         release: release/dashing/{package}/{version}
       url: https://gitlab.com/AutowareAuto/AutowareAuto-release.git
@@ -120,7 +106,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/ament_index-release.git
-      version: 0.7.0-1
+      version: 0.7.1-1
     source:
       test_pull_requests: true
       type: git
@@ -182,7 +168,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/ament_package-release.git
-      version: 0.7.1-1
+      version: 0.7.2-1
     source:
       type: git
       url: https://github.com/ament/ament_package.git
@@ -237,6 +223,13 @@ repositories:
       url: https://github.com/christianrauch/apriltag_ros.git
       version: master
     status: developed
+  async_web_server_cpp:
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/async_web_server_cpp-release.git
+      version: 1.0.0-1
+    status: unmaintained
   aws_common:
     doc:
       type: git
@@ -702,7 +695,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: ba94e149b4a5e61f0618065a3fcf5f48b57e775f
+      version: 906c966c426f85d503baca9c2e46bead7b633dff
     status: developed
   fastrtps:
     release:
@@ -715,7 +708,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-RTPS.git
-      version: v1.8.0
+      version: 6a6f79c4256a00fc13834a2aaa3c60a0aaac5e76
     status: developed
   fmi_adapter_ros2:
     doc:
@@ -756,7 +749,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/gazebo_ros_pkgs-release.git
-      version: 3.3.3-1
+      version: 3.3.4-1
     source:
       test_pull_requests: true
       type: git
@@ -810,7 +803,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/aws-gbp/h264_encoder_core-release.git
-      version: 2.0.1-1
+      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/aws-robotics/kinesisvideo-encoder-common.git
@@ -840,7 +833,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/aws-gbp/health_metric_collector-release.git
-      version: 3.0.0-1
+      version: 3.0.1-1
     source:
       type: git
       url: https://github.com/aws-robotics/health-metrics-collector-ros2.git
@@ -1020,6 +1013,21 @@ repositories:
       url: https://github.com/ros2/launch_ros.git
       version: dashing
     status: developed
+  launch_ros_sandbox:
+    doc:
+      type: git
+      url: https://github.com/aws-robotics/launch-ros-sandbox.git
+      version: dashing
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/aws-gbp/launch_ros_sandbox-release.git
+      version: 0.0.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/aws-robotics/launch-ros-sandbox.git
+      version: dashing
   lex_common:
     doc:
       type: git
@@ -1470,7 +1478,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 0.7.6-1
+      version: 0.7.7-1
     source:
       test_pull_requests: true
       type: git
@@ -1534,7 +1542,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 0.7.8-1
+      version: 0.7.9-1
     source:
       test_pull_requests: true
       type: git
@@ -1923,6 +1931,22 @@ repositories:
       url: https://github.com/ros2/ros_workspace.git
       version: latest
     status: developed
+  rosauth:
+    doc:
+      type: git
+      url: https://github.com/GT-RAIL/rosauth.git
+      version: ros2
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/rosauth-release.git
+      version: 2.0.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/GT-RAIL/rosauth.git
+      version: ros2
+    status: maintained
   rosbag2:
     doc:
       type: git
@@ -1943,7 +1967,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2-release.git
-      version: 0.1.5-1
+      version: 0.1.6-1
     source:
       test_pull_requests: true
       type: git
@@ -1969,6 +1993,28 @@ repositories:
       url: https://github.com/ros2/rosbag2_bag_v2.git
       version: master
     status: developed
+  rosbridge_suite:
+    doc:
+      type: git
+      url: https://github.com/RobotWebTools/rosbridge_suite.git
+      version: ros2
+    release:
+      packages:
+      - rosapi
+      - rosbridge_library
+      - rosbridge_msgs
+      - rosbridge_server
+      - rosbridge_suite
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/rosbridge_suite-release.git
+      version: 1.0.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/RobotWebTools/rosbridge_suite.git
+      version: ros2
+    status: maintained
   rosidl:
     doc:
       type: git
@@ -2439,7 +2485,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros-gbp/teleop_tools-release.git
-      version: 1.0.0-0
+      version: 1.0.1-0
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
@@ -2454,7 +2500,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/teleop_twist_joy-release.git
-      version: 2.2.0-1
+      version: 2.2.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2590,7 +2636,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/aws-gbp/tts-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/aws-robotics/tts-ros2.git
@@ -2783,6 +2829,22 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/vision_opencv.git
+      version: ros2
+    status: maintained
+  web_video_server:
+    doc:
+      type: git
+      url: https://github.com/RobotWebTools/web_video_server.git
+      version: ros2
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/web_video_server-release.git
+      version: 1.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/RobotWebTools/web_video_server.git
       version: ros2
     status: maintained
   yaml_cpp_vendor:

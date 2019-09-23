@@ -2012,6 +2012,12 @@ python-joblib:
   fedora: [python-joblib]
   gentoo: [dev-python/joblib]
   ubuntu: [python-joblib]
+python-jsonpickle:
+  arch: [python-jsonpickle]
+  debian: [python-jsonpickle]
+  fedora: [python-jsonpickle]
+  gentoo: [dev-python/jsonpickle]
+  ubuntu: [python-jsonpickle]
 python-jsonpyes-pip:
   debian:
     pip:
@@ -2059,6 +2065,19 @@ python-keras-pip:
   ubuntu:
     pip:
       packages: [keras]
+python-keras-rl-pip:
+  debian:
+    pip:
+      packages: [keras-rl]
+  fedora:
+    pip:
+      packages: [keras-rl]
+  osx:
+    pip:
+      packages: [keras-rl]
+  ubuntu:
+    pip:
+      packages: [keras-rl]
 python-kitchen:
   arch: [python2-kitchen]
   debian: [python-kitchen]
@@ -4974,6 +4993,11 @@ python3-django-extra-views:
 python3-djangorestframework:
   debian: [python3-djangorestframework]
   ubuntu: [python3-djangorestframework]
+python3-docker:
+  arch: [python-docker]
+  debian: [python3-docker]
+  fedora: [python3-docker]
+  ubuntu: [python3-docker]
 python3-empy:
   debian:
     buster: [python3-empy]
@@ -5018,7 +5042,18 @@ python3-gnupg:
   fedora: [python3-gnupg]
   gentoo: [dev-python/python-gnupg]
   ubuntu: [python3-gnupg]
+python3-ifcfg:
+  debian:
+    buster: [python3-ifcfg]
+    stretch: [python3-ifcfg]
+  fedora: [python3-ifcfg]
+  rhel: ['python%{python3_pkgversion}-ifcfg']
+  ubuntu:
+    bionic: [python3-ifcfg]
 python3-lark-parser:
+  debian:
+    buster: [python3-lark-parser]
+    stretch: [python3-lark-parser]
   fedora:
     '*': [python3-lark-parser]
     '28': null
@@ -5367,6 +5402,11 @@ python3-venv:
   debian: [python3-venv]
   fedora: [python3-libs]
   ubuntu: [python3-venv]
+python3-websocket:
+  debian: [python3-websocket]
+  fedora: [python3-websocket-client]
+  gentoo: [dev-python/websocket-client]
+  ubuntu: [python3-websocket]
 python3-yaml:
   alpine: [py3-yaml]
   debian: [python3-yaml]
