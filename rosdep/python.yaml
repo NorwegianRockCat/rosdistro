@@ -5168,6 +5168,7 @@ python3-netifaces:
 python3-nose:
   debian: [python3-nose]
   gentoo: [dev-python/nose]
+  freebsd: [py36-nose]
   openembedded: [python3-nose@openembedded-core]
   rhel: ['python%{python3_pkgversion}-nose']
   ubuntu: [python3-nose]
@@ -5177,6 +5178,7 @@ python3-nose-yanc:
   ubuntu: [python3-nose-yanc]
 python3-numpy:
   debian: [python3-numpy]
+  freebsd: [py36-numpy]
   fedora: [python3-numpy]
   gentoo: [dev-python/numpy]
   openembedded: [python3-numpy@openembedded-core]
