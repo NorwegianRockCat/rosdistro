@@ -5146,6 +5146,7 @@ python3-matplotlib:
 python3-mock:
   debian: [python3-mock]
   fedora: [python3-mock]
+  freebsd: [py36-mock]
   gentoo: [dev-python/mock]
   openembedded: [python3-mock@meta-ros]
   rhel: ['python%{python3_pkgversion}-mock']
