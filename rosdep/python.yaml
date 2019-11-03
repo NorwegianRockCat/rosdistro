@@ -5505,6 +5505,7 @@ python3-websocket:
 python3-yaml:
   alpine: [py3-yaml]
   debian: [python3-yaml]
+  freebsd: [py36-yaml]
   fedora: [python3-PyYAML]
   gentoo: [dev-python/pyyaml]
   openembedded: [python3-pyyaml@meta-python]
