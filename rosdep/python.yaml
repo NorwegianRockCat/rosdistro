@@ -4988,6 +4988,7 @@ python3-cairo:
 python3-catkin-pkg:
   debian: [python3-catkin-pkg]
   fedora: [python3-catkin_pkg]
+  freebsd: [py36-ros-catkin_pkg]
   gentoo: [dev-python/catkin_pkg]
   ubuntu: [python3-catkin-pkg]
 python3-catkin-pkg-modules:
@@ -5373,13 +5374,13 @@ python3-qt5-bindings-webkit:
 python3-rosdep:
   debian: [python3-rosdep]
   fedora: [python3-rosdep]
-  freebsd: [py36-rosdep]
+  freebsd: [py36-ros-rosdep]
   gentoo: [dev-util/rosdep]
   ubuntu: [python3-rosdep]
 python3-rosdistro-modules:
   debian: [python3-rosdistro-modules]
   fedora: [python3-rosdistro]
-  freebsd: [py36-rosdistro]
+  freebsd: [py36-ros-rosdistro]
   gentoo: [dev-python/rosdistro]
   openembedded: [python3-rosdistro@meta-ros]
   rhel: ['python%{python3_pkgversion}-rosdistro']
@@ -5390,7 +5391,7 @@ python3-rospkg:
       packages: [rospkg]
   debian: [python3-rospkg]
   fedora: [python3-rospkg]
-  freebsd: [py36-rospkg]
+  freebsd: [py36-ros-rospkg]
   gentoo: [dev-python/rospkg]
   opensuse: [python3-rospkg]
   osx:
@@ -5407,7 +5408,7 @@ python3-rospkg-modules:
   arch: [python-rospkg]
   debian: [python3-rospkg-modules]
   fedora: [python3-rospkg]
-  freebsd: [py36-rospkg]
+  freebsd: [py36-ros-rospkg]
   gentoo: [dev-python/rospkg]
   opensuse: [python3-rospkg]
   osx:
