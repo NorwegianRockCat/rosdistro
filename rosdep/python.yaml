@@ -3599,9 +3599,7 @@ python-rosdep:
   arch: [python2-rosdep]
   debian: [python-rosdep]
   fedora: [python-rosdep]
-  freebsd:
-    pip:
-      packages: [rosdep]
+  freebsd: [py27-rosdep]
   gentoo: [dev-python/rosdep]
   openembedded: [python-rosdep@meta-ros]
   opensuse: [python-rosdep]
@@ -5373,11 +5371,13 @@ python3-qt5-bindings-webkit:
 python3-rosdep:
   debian: [python3-rosdep]
   fedora: [python3-rosdep]
+  freebsd: [py36-rosdep]
   gentoo: [dev-util/rosdep]
   ubuntu: [python3-rosdep]
 python3-rosdistro-modules:
   debian: [python3-rosdistro-modules]
   fedora: [python3-rosdistro]
+  freebsd: [py36-rosdistro]
   gentoo: [dev-python/rosdistro]
   openembedded: [python3-rosdistro@meta-ros]
   rhel: ['python%{python3_pkgversion}-rosdistro']
@@ -5388,9 +5388,7 @@ python3-rospkg:
       packages: [rospkg]
   debian: [python3-rospkg]
   fedora: [python3-rospkg]
-  freebsd:
-    pip:
-      packages: [rospkg]
+  freebsd: [py36-rospkg]
   gentoo: [dev-python/rospkg]
   opensuse: [python3-rospkg]
   osx:
@@ -5407,9 +5405,7 @@ python3-rospkg-modules:
   arch: [python-rospkg]
   debian: [python3-rospkg-modules]
   fedora: [python3-rospkg]
-  freebsd:
-    pip:
-      packages: [rospkg]
+  freebsd: [py36-rospkg]
   gentoo: [dev-python/rospkg]
   opensuse: [python3-rospkg]
   osx:
