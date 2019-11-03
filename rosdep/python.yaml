@@ -5059,6 +5059,7 @@ python3-empy:
     jessie: [python3-empy]
     stretch: [python3-empy]
   fedora: [python3-empy]
+  freebsd: [py36-empy]
   gentoo: [dev-python/empy]
   openembedded: [python3-empy@meta-ros]
   rhel: ['python%{python3_pkgversion}-empy']
