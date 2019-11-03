@@ -5011,6 +5011,7 @@ python3-collada-pip:
 python3-coverage:
   debian: [python3-coverage]
   fedora: [python3-coverage]
+  freebsd: [py36-coverage]
   gentoo: [dev-python/coverage]
   ubuntu: [python3-coverage]
 python3-cryptography:
