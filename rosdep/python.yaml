@@ -4937,6 +4937,7 @@ python-zmq:
     trusty_python3: [python3-zmq]
 python3:
   debian: [python3-dev]
+  freebsd: [python3]
   fedora: [python3-devel]
   gentoo: [dev-lang/python]
   ubuntu: [python3-dev]
