@@ -180,6 +180,7 @@ intelhex-pip:
 ipython:
   debian: [ipython]
   fedora: [python-ipython]
+  freebsd: [py36-ipython]
   gentoo: [dev-python/ipython]
   macports: [py27-ipython]
   ubuntu: [ipython]
@@ -225,6 +226,7 @@ pi-ina219-pip:
       packages: [pi-ina219]
 pika:
   debian: [python-pika]
+  freebsd: [py36-pika]
   gentoo: [dev-python/pika]
   macports: [py27-pika]
   osx:
@@ -1882,7 +1884,7 @@ python-gtk2:
   arch: [pygtk]
   debian: [python-gtk2]
   fedora: [pygtk2]
-  freebsd: [py-gtk2]
+  freebsd: [py36-gtk2]
   gentoo: [=dev-python/pygtk-2*]
   macports: [py27-gtk]
   opensuse: [python-gtk]
@@ -3635,6 +3637,7 @@ python-rosdep:
 python-rosdistro:
   debian: [python-rosdistro]
   fedora: [python-rosdistro]
+  freebsd: [py36-rosdistro]
   gentoo: [dev-python/rosdistro]
   osx:
     macports: [py27-rosdistro]
@@ -3677,6 +3680,7 @@ python-rosinstall-generator:
     buster: [python-rosinstall-generator]
     stretch: [python-rosinstall-generator]
   fedora: [python-rosinstall_generator]
+  freebsd: [py36-rosinstall-generator]
   gentoo: [dev-python/rosinstall_generator]
   macports: [py27-rosinstall-generator]
   ubuntu:
@@ -3697,9 +3701,7 @@ python-rospkg:
   arch: [python2-rospkg]
   debian: [python-rospkg]
   fedora: [python-rospkg]
-  freebsd:
-    pip:
-      packages: [rospkg]
+  freebsd: [py36-rospkg]
   gentoo: [dev-python/rospkg]
   macports: [py27-rospkg]
   openembedded: [python-rospkg@meta-ros]
@@ -3726,9 +3728,7 @@ python-rospkg-modules:
   arch: [python2-rospkg]
   debian: [python-rospkg-modules]
   fedora: [python-rospkg]
-  freebsd:
-    pip:
-      packages: [rospkg]
+  freebsd: [py36-rospkg]
   gentoo: [dev-python/rospkg]
   macports: [py27-rospkg]
   opensuse: [python-rospkg]
@@ -3820,7 +3820,7 @@ python-scipy:
   arch: [python2-scipy]
   debian: [python-scipy]
   fedora: [scipy]
-  freebsd: [py-scipy]
+  freebsd: [py36-scipy]
   gentoo: [sci-libs/scipy]
   macports: [py27-scipy]
   opensuse: [python-scipy]
@@ -3919,6 +3919,7 @@ python-setuptools:
   arch: [python2-distribute]
   debian: [python-setuptools]
   fedora: [python-setuptools]
+  freebsd: [py36-setuptools]
   gentoo: [dev-python/setuptools]
   macports: [py27-setuptools]
   openembedded: [python-setuptools@openembedded-core]
@@ -4024,6 +4025,7 @@ python-sip:
 python-sip4:
   debian: [python-sip-dev]
   fedora: [sip]
+  freebsd: [py36-sip]
   gentoo: [=dev-python/sip-4*]
   macports: [py27-sip4]
 python-six:
@@ -4677,6 +4679,7 @@ python-vcstools:
     buster: [python-vcstools]
     stretch: [python-vcstools]
   fedora: [python-vcstools]
+  freebsd: [py36-vcstools]
   gentoo: [dev-python/vcstools]
   macports: [py27-vcstools]
 python-vine-pip:
@@ -4837,6 +4840,7 @@ python-wstool:
     buster: [python-wstool]
     stretch: [python-wstool]
   fedora: [python-wstool]
+  freebsd: [py36-wstool]
   gentoo: [dev-python/wstool]
   macports: [py27-wstool]
   ubuntu: [python-wstool]
